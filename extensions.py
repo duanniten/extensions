@@ -10,7 +10,7 @@ def main():
 def getExtenion(file:str,dic:dict):
     for suffix, file_type in dic.items():
         if file.endswith(suffix):
-            print(file_type[0])  # Retorna o primeiro valor da lista
+            print(file_type)  # Retorna o primeiro valor da lista
             return
     print('application/octet-stream')
 
